@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form class="reg-window" method="GET">
+      <h1 class="header">Register</h1>
+      <span class="comment">
+        Create your account. It's free and only takes a minute.</span
+      >
+      <div class="top-form">
+        <input
+          class="main-name"
+          autofocus
+          type="text"
+          placeholder="  First name"
+          name="firstName"
+          pattern="[A-Z][a-z]{2,15}"
+          required
+        />
+        <input
+          class="main-name"
+          type="text"
+          pattern="[A-Z][a-z]{2,15}"
+          placeholder="  Last name"
+          name="lastName"
+          required
+        />
+      </div>
+      <div class="sec-form">
+        <input
+          class="email-pass"
+          type="email"
+          placeholder="  Email"
+          name="Email"
+          required
+        />
+        <input
+          class="email-pass"
+          type="password"
+          pattern="(?=.?*[A-Z])(?=.?*[a-z])(?=.?*[0-9].{7,32})"
+          placeholder="  Password"
+          name="password"
+          required
+        />
+        <input
+          class="email-pass"
+          type="password"
+          pattern="(?=.?*[A-Z])(?=.?*[a-z])(?=.?*[0-9].{7,32})"
+          placeholder="  Confirm Password"
+          name="password"
+          required
+        />
+      </div>
+
+      <label class="checkbox">
+        <input type="checkbox" name="acceptTerms" /> I accept the Terms of Use &
+        Privacy Policy
+      </label>
+      <div class="submit-but">
+        <button class="style-but" type="submit">Register Now</button>
+      </div>
+    </form>
+  </body>
+</html>
