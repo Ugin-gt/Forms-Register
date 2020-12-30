@@ -4,12 +4,11 @@ html {
   padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: 100%;
-  height: 100%;
 }
+
 .reg-window {
   width: 400px;
-  padding: 30px 15px;
+  padding: 35px 35px;
   background-color: lightgray;
   border: 0.5px solid gray;
   position: absolute;
@@ -57,8 +56,6 @@ html {
 .top-form {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .main-name,
 .email-pass,
@@ -66,22 +63,14 @@ html {
   border-radius: 4px;
   border-width: 0.5px;
   height: 40px;
-  width: 360px;
   font-size: 15px;
-}
-
-.main-name {
-  margin: 12px 7px;
-  width: 170px;
+  padding-left: 10px;
+  margin: 12px -7px;
 }
 
 .sec-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.email-pass {
-  margin: 12px 0px;
 }
 
 .checkbox {
@@ -89,13 +78,8 @@ html {
   text-align: left;
   font-size: 15px;
   font-weight: 200;
-  padding: 10px 15px;
+  padding: 10px 0px;
   opacity: 0.5;
-}
-.submit-but {
-  display: block;
-  text-align: center;
-  margin: 12px 0px;
 }
 
 .style-but {
@@ -104,4 +88,5 @@ html {
   color: white;
   box-sizing: border-box;
   font-weight: 700;
+  width: 100%;
 }
