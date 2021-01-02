@@ -57,6 +57,9 @@ html {
   display: flex;
   flex-direction: row;
 }
+.main-name {
+  max-width: 42%;
+}
 .main-name,
 .email-pass,
 .style-but {
@@ -65,7 +68,7 @@ html {
   height: 40px;
   font-size: 15px;
   padding-left: 10px;
-  margin: 12px;
+  margin: 10px;
 }
 
 .sec-form {
