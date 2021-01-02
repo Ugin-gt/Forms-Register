@@ -65,7 +65,7 @@ html {
   height: 40px;
   font-size: 15px;
   padding-left: 10px;
-  margin: 12px -7px;
+  margin: 12px;
 }
 
 .sec-form {
@@ -78,7 +78,7 @@ html {
   text-align: left;
   font-size: 15px;
   font-weight: 200;
-  padding: 10px 0px;
+  padding: 10px;
   opacity: 0.5;
 }
 
